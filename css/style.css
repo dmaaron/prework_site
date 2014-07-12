@@ -1,0 +1,153 @@
+html {
+	height:100%;
+	width:100%;
+}
+
+body {
+	background: url('http://klabs.org/history/ech/agc_schematics/logic/a06-2.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family:Georgia;
+}
+
+#container {
+	margin:0px;
+	padding:0px;
+	font-family:Georgia;
+	position: relative;
+	min-width:1100px;
+	max-width:1100px;
+}
+
+#header {
+	z-index: 1;
+	background: #3BAED1;
+	height: 80px;
+	width: auto;
+	padding: 0px;
+	margin:5px 5px 0px;
+	position:relative;
+	overflow: auto;
+}
+
+#header h1 {
+	margin: 0px;
+	padding-top:10px;
+	padding-left: 10px;
+	color: #000;
+	font-style:bold;
+	font-family:Impact;
+	font-size: 45px;
+	float:left;
+}
+
+#header h2 {
+	margin: 0px;
+	padding: 50px 10px 0px 0px;
+	color: #000;
+	font-style:inherit;
+	font-family:Impact;
+	font-size: 22px;
+	float: right;
+}
+
+#leftnav {
+	margin: 5px;
+	background: #575757;
+	height: 550px;
+	width: 150px;
+	float: left;
+	position: relative;
+}
+
+#leftnav ul {
+	color:#FFF;
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	position:relative;
+}
+
+#leftnav li {
+	padding:15px;
+	border-top: 1px solid #FFF;
+	border-bottom:1px solid #FFF;
+}
+
+
+#leftnav li:hover{
+
+	color: #000;
+	background: #FFF;
+	cursor:pointer;
+}
+
+#right {
+	padding:5px;
+	margin: 5px;
+	color:#FFF;
+	background:#000;
+	height: 448px;
+	width: 850px;
+	min-width: 850px;
+	max-width: 850px;
+	float:left;
+	position:relative;
+	top:0px;
+	border: 1px dashed silver;
+	opacity: 0.9;
+}
+
+#right h2 {
+	color: #FFF;
+	font-size: 25px;
+	font-style:italic;
+	text-align: center;
+	border-bottom:1px solid white;
+	padding: 5px 0 5px 0;
+	
+}
+
+
+
+
+#right p {
+	margin-left:10px;
+	padding-top:12px;
+	padding-left:10px;
+	font-size:15px;
+	font-family: courier;
+	font-weight:italic;
+	z-index:1;
+}
+
+
+#right img {
+	opacity:none;
+	margin-right:5px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+#footer {
+	background: #000;
+	height: 55px;
+	width: auto;
+	clear:left;
+	text-align:center;
+	margin: 0 5px;
+}
+
+#footer p {
+	position:relative;
+	color:#D9326F;
+	padding-top:21px;
+	font-size:15px;
+	font-family:courier;
+}
+
+#right a {
+	text-decoration: none;
+	color: #35C0F2;
+}
